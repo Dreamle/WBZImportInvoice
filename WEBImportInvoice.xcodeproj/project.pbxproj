@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8447926122C2231A0000A304 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447926022C2231A0000A304 /* AppDelegate.m */; };
+		8447926422C2231A0000A304 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447926322C2231A0000A304 /* ViewController.m */; };
+		8447926722C2231A0000A304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8447926522C2231A0000A304 /* Main.storyboard */; };
+		8447926922C2231B0000A304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8447926822C2231B0000A304 /* Assets.xcassets */; };
+		8447926C22C2231B0000A304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8447926A22C2231B0000A304 /* LaunchScreen.storyboard */; };
+		8447926F22C2231B0000A304 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447926E22C2231B0000A304 /* main.m */; };
+		8447927922C2231B0000A304 /* WEBImportInvoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447927822C2231B0000A304 /* WEBImportInvoiceTests.m */; };
+		8447928422C2231B0000A304 /* WEBImportInvoiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447928322C2231B0000A304 /* WEBImportInvoiceUITests.m */; };
+		8447929222C223310000A304 /* WBZLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8447929122C223310000A304 /* WBZLib.framework */; };
+		9A23EBAB55B354E7FA7457D4 /* libPods-WEBImportInvoice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E14F738D65A4B8B9530A7B /* libPods-WEBImportInvoice.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8447927522C2231B0000A304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8447925422C2231A0000A304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8447925B22C2231A0000A304;
+			remoteInfo = WEBImportInvoice;
+		};
+		8447928022C2231B0000A304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8447925422C2231A0000A304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8447925B22C2231A0000A304;
+			remoteInfo = WEBImportInvoice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8447925C22C2231A0000A304 /* WEBImportInvoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEBImportInvoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8447925F22C2231A0000A304 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8447926022C2231A0000A304 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8447926222C2231A0000A304 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8447926322C2231A0000A304 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8447926622C2231A0000A304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8447926822C2231B0000A304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8447926B22C2231B0000A304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8447926D22C2231B0000A304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8447926E22C2231B0000A304 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8447927422C2231B0000A304 /* WEBImportInvoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEBImportInvoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8447927822C2231B0000A304 /* WEBImportInvoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WEBImportInvoiceTests.m; sourceTree = "<group>"; };
+		8447927A22C2231B0000A304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8447927F22C2231B0000A304 /* WEBImportInvoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEBImportInvoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8447928322C2231B0000A304 /* WEBImportInvoiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WEBImportInvoiceUITests.m; sourceTree = "<group>"; };
+		8447928522C2231B0000A304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8447929122C223310000A304 /* WBZLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WBZLib.framework; sourceTree = "<group>"; };
+		CBF2E8A9ED9FFE5D06A50CF3 /* Pods-WEBImportInvoice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEBImportInvoice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WEBImportInvoice/Pods-WEBImportInvoice.debug.xcconfig"; sourceTree = "<group>"; };
+		D7E14F738D65A4B8B9530A7B /* libPods-WEBImportInvoice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WEBImportInvoice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47E28C548CD58E157C9F8E6 /* Pods-WEBImportInvoice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEBImportInvoice.release.xcconfig"; path = "Pods/Target Support Files/Pods-WEBImportInvoice/Pods-WEBImportInvoice.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8447925922C2231A0000A304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8447929222C223310000A304 /* WBZLib.framework in Frameworks */,
+				9A23EBAB55B354E7FA7457D4 /* libPods-WEBImportInvoice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8447927122C2231B0000A304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8447927C22C2231B0000A304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE63B72990AF85CC1528969 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBF2E8A9ED9FFE5D06A50CF3 /* Pods-WEBImportInvoice.debug.xcconfig */,
+				E47E28C548CD58E157C9F8E6 /* Pods-WEBImportInvoice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8447925322C2231A0000A304 = {
+			isa = PBXGroup;
+			children = (
+				8447925E22C2231A0000A304 /* WEBImportInvoice */,
+				8447927722C2231B0000A304 /* WEBImportInvoiceTests */,
+				8447928222C2231B0000A304 /* WEBImportInvoiceUITests */,
+				8447925D22C2231A0000A304 /* Products */,
+				0DE63B72990AF85CC1528969 /* Pods */,
+				A909713D0F39F3611E1878D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8447925D22C2231A0000A304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8447925C22C2231A0000A304 /* WEBImportInvoice.app */,
+				8447927422C2231B0000A304 /* WEBImportInvoiceTests.xctest */,
+				8447927F22C2231B0000A304 /* WEBImportInvoiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8447925E22C2231A0000A304 /* WEBImportInvoice */ = {
+			isa = PBXGroup;
+			children = (
+				8447929122C223310000A304 /* WBZLib.framework */,
+				8447925F22C2231A0000A304 /* AppDelegate.h */,
+				8447926022C2231A0000A304 /* AppDelegate.m */,
+				8447926222C2231A0000A304 /* ViewController.h */,
+				8447926322C2231A0000A304 /* ViewController.m */,
+				8447926522C2231A0000A304 /* Main.storyboard */,
+				8447926822C2231B0000A304 /* Assets.xcassets */,
+				8447926A22C2231B0000A304 /* LaunchScreen.storyboard */,
+				8447926D22C2231B0000A304 /* Info.plist */,
+				8447926E22C2231B0000A304 /* main.m */,
+			);
+			path = WEBImportInvoice;
+			sourceTree = "<group>";
+		};
+		8447927722C2231B0000A304 /* WEBImportInvoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				8447927822C2231B0000A304 /* WEBImportInvoiceTests.m */,
+				8447927A22C2231B0000A304 /* Info.plist */,
+			);
+			path = WEBImportInvoiceTests;
+			sourceTree = "<group>";
+		};
+		8447928222C2231B0000A304 /* WEBImportInvoiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8447928322C2231B0000A304 /* WEBImportInvoiceUITests.m */,
+				8447928522C2231B0000A304 /* Info.plist */,
+			);
+			path = WEBImportInvoiceUITests;
+			sourceTree = "<group>";
+		};
+		A909713D0F39F3611E1878D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7E14F738D65A4B8B9530A7B /* libPods-WEBImportInvoice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8447925B22C2231A0000A304 /* WEBImportInvoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8447928822C2231B0000A304 /* Build configuration list for PBXNativeTarget "WEBImportInvoice" */;
+			buildPhases = (
+				AEB6D00EA56FFBEF9B9813BE /* [CP] Check Pods Manifest.lock */,
+				8447925822C2231A0000A304 /* Sources */,
+				8447925922C2231A0000A304 /* Frameworks */,
+				8447925A22C2231A0000A304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WEBImportInvoice;
+			productName = WEBImportInvoice;
+			productReference = 8447925C22C2231A0000A304 /* WEBImportInvoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8447927322C2231B0000A304 /* WEBImportInvoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8447928B22C2231B0000A304 /* Build configuration list for PBXNativeTarget "WEBImportInvoiceTests" */;
+			buildPhases = (
+				8447927022C2231B0000A304 /* Sources */,
+				8447927122C2231B0000A304 /* Frameworks */,
+				8447927222C2231B0000A304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8447927622C2231B0000A304 /* PBXTargetDependency */,
+			);
+			name = WEBImportInvoiceTests;
+			productName = WEBImportInvoiceTests;
+			productReference = 8447927422C2231B0000A304 /* WEBImportInvoiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8447927E22C2231B0000A304 /* WEBImportInvoiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8447928E22C2231B0000A304 /* Build configuration list for PBXNativeTarget "WEBImportInvoiceUITests" */;
+			buildPhases = (
+				8447927B22C2231B0000A304 /* Sources */,
+				8447927C22C2231B0000A304 /* Frameworks */,
+				8447927D22C2231B0000A304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8447928122C2231B0000A304 /* PBXTargetDependency */,
+			);
+			name = WEBImportInvoiceUITests;
+			productName = WEBImportInvoiceUITests;
+			productReference = 8447927F22C2231B0000A304 /* WEBImportInvoiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8447925422C2231A0000A304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					8447925B22C2231A0000A304 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8447927322C2231B0000A304 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8447925B22C2231A0000A304;
+					};
+					8447927E22C2231B0000A304 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8447925B22C2231A0000A304;
+					};
+				};
+			};
+			buildConfigurationList = 8447925722C2231A0000A304 /* Build configuration list for PBXProject "WEBImportInvoice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8447925322C2231A0000A304;
+			productRefGroup = 8447925D22C2231A0000A304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8447925B22C2231A0000A304 /* WEBImportInvoice */,
+				8447927322C2231B0000A304 /* WEBImportInvoiceTests */,
+				8447927E22C2231B0000A304 /* WEBImportInvoiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8447925A22C2231A0000A304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8447926C22C2231B0000A304 /* LaunchScreen.storyboard in Resources */,
+				8447926922C2231B0000A304 /* Assets.xcassets in Resources */,
+				8447926722C2231A0000A304 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8447927222C2231B0000A304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8447927D22C2231B0000A304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEB6D00EA56FFBEF9B9813BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WEBImportInvoice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8447925822C2231A0000A304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8447926422C2231A0000A304 /* ViewController.m in Sources */,
+				8447926F22C2231B0000A304 /* main.m in Sources */,
+				8447926122C2231A0000A304 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8447927022C2231B0000A304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8447927922C2231B0000A304 /* WEBImportInvoiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8447927B22C2231B0000A304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8447928422C2231B0000A304 /* WEBImportInvoiceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8447927622C2231B0000A304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8447925B22C2231A0000A304 /* WEBImportInvoice */;
+			targetProxy = 8447927522C2231B0000A304 /* PBXContainerItemProxy */;
+		};
+		8447928122C2231B0000A304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8447925B22C2231A0000A304 /* WEBImportInvoice */;
+			targetProxy = 8447928022C2231B0000A304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8447926522C2231A0000A304 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8447926622C2231A0000A304 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8447926A22C2231B0000A304 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8447926B22C2231B0000A304 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8447928622C2231B0000A304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8447928722C2231B0000A304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8447928922C2231B0000A304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF2E8A9ED9FFE5D06A50CF3 /* Pods-WEBImportInvoice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 289SPVTKDP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WEBImportInvoice",
+				);
+				INFOPLIST_FILE = WEBImportInvoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = admin.WEBImportInvoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8447928A22C2231B0000A304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47E28C548CD58E157C9F8E6 /* Pods-WEBImportInvoice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 289SPVTKDP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WEBImportInvoice",
+				);
+				INFOPLIST_FILE = WEBImportInvoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = admin.WEBImportInvoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8447928C22C2231B0000A304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WEBImportInvoiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = admin.WEBImportInvoiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WEBImportInvoice.app/WEBImportInvoice";
+			};
+			name = Debug;
+		};
+		8447928D22C2231B0000A304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WEBImportInvoiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = admin.WEBImportInvoiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WEBImportInvoice.app/WEBImportInvoice";
+			};
+			name = Release;
+		};
+		8447928F22C2231B0000A304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WEBImportInvoiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = admin.WEBImportInvoiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WEBImportInvoice;
+			};
+			name = Debug;
+		};
+		8447929022C2231B0000A304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WEBImportInvoiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = admin.WEBImportInvoiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WEBImportInvoice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8447925722C2231A0000A304 /* Build configuration list for PBXProject "WEBImportInvoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8447928622C2231B0000A304 /* Debug */,
+				8447928722C2231B0000A304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8447928822C2231B0000A304 /* Build configuration list for PBXNativeTarget "WEBImportInvoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8447928922C2231B0000A304 /* Debug */,
+				8447928A22C2231B0000A304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8447928B22C2231B0000A304 /* Build configuration list for PBXNativeTarget "WEBImportInvoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8447928C22C2231B0000A304 /* Debug */,
+				8447928D22C2231B0000A304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8447928E22C2231B0000A304 /* Build configuration list for PBXNativeTarget "WEBImportInvoiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8447928F22C2231B0000A304 /* Debug */,
+				8447929022C2231B0000A304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8447925422C2231A0000A304 /* Project object */;
+}

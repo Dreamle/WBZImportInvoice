@@ -1,0 +1,6 @@
+framework module WBZLib {
+  umbrella header "WBZLib.h"
+
+  export *
+  module * { export * }
+}
