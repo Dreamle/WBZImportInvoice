@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
 
   s.framework = "WBZLib"
   s.source_files  = "WBZImportInvoice", "*.*"
-  #s.dependency "WechatOpenSDK", '~> 1.8.4'
+  s.dependency "WechatOpenSDK", '~> 1.8.4'
   s.requires_arc = true
 end
