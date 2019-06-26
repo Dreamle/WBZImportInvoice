@@ -2,4 +2,9 @@ platform:ios, '9.0'
 
 target 'WEBImportInvoice' do
    pod 'WechatOpenSDK'
+   
+   #pre_install do |installer|
+    #internalInstaller = installer.installer
+    #def internalInstaller.verify_no_static_framework_transitive_dependencies; end
+   #end
 end
